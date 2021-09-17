@@ -130,3 +130,6 @@ dmypy.json
 
 # 3rd party template
 sb-admin-2/
+
+# demo
+vuln-apps/
