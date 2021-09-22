@@ -1,0 +1,1 @@
+sudo mysql -u root -p apisploit -e "delete from pentest_payload; delete from pentest_test; delete from pentest_scan; alter table pentest_payload auto_increment=1; alter table pentest_test auto_increment = 1; alter table pentest_scan auto_increment=1;"
