@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 
-RUN apt-get update -y && apt install mysql-server redis-server python3-pip libmysqlclient-dev git python-dev -y
+ARG DEBIAN_FRONTEND=noninteractive
+RUN apt-get update -y && apt install -y mysql-server redis-server python3-pip libmysqlclient-dev git python-dev
 
 RUN mkdir /sqlmap 
 
